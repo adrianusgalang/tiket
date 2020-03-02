@@ -61,5 +61,5 @@ func TestSolutionMinus(t *testing.T) {
 			sum += result[a][b]
 		}
 	}
-	assert.Equal(t, sum, 0, "value should be same - out range")
+	assert.Equal(t, sum, 0, "value should zero")
 }
